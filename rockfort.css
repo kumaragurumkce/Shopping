@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Carter One', cursive;
+box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 'navi navi navi navi'
+                          'heading heading heading heading'
+                         'bigrow1 bigrow1 bigrow1 bigrow1'
+                         'bigrow2 bigrow2 bigrow2 bigrow2'
+                         'bigrow3 bigrow3 bigrow3 bigrow3' 
+                         'container';
+                         grid-template-rows:100px 100px 150px 200px 200px 200px;
+                        }
+.navi,.heading,.bigrow1,.bigrow2,.bigrow3,.container{
+border: 2px solid black;
+}
+ .navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #45C4B0;
+}
+.logo  {
+
+    color: #9AEBA3;
+    font-size:49px;
+    border: 1px solid black;
+    padding: 10px; 
+    height: 10px;
+    margin: 10px;
+    width:10px;
+    padding: 10px;
+   
+}
+.logocol{
+   height: 10vh;
+   width: 20vw;
+   padding:1px 70px 75px 1px;
+   margin: 10px 1px 8px 180px;
+   border-radius: 20px;
+    background-color:#012030 ;
+}
+.nav-link ul {
+    display: flex;
+    list-style: none;
+    margin: 50px;
+}
+ .nav-link ul li{
+    padding: 10px;
+    display: block;
+}
+.nav-link ul li a{
+    font-size: 20px;
+   
+    color: #262f3d;
+text-decoration: none;
+}
+.nav-link ul li a:hover{
+    background-color: #012030;
+    border-radius: 15px;
+    color: #45C4B0;
+    padding: 5px;
+}
+
+.heading ul {
+    display:flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #012030;
+    font-size: 24px;   
+}
+.heading ul li  {
+    list-style: none;
+    padding: 10px;
+}
+.heading ul li a{
+    color: #45C4B0;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.heading ul li a:hover {
+    text-decoration: none;
+    background-color: #45C4B0;
+    border-radius: 15px;
+    color: #012030;
+    padding: 5px;
+}
+.bigrow1 {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 50px;
+    background-color:#9AEBA3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:#012030;
+}
+.bigrow1 :hover{
+    transition: transform 0.5s;
+    transform: scale(1.09);
+    
+    border-radius: 20px;
+    background-color:#45C4B0;
+}
+.bigrow2{
+    background-color: red;
+}
+.bigrow3{
+    background-color: red;
+}
+.container{
+    background-color: red;
+}

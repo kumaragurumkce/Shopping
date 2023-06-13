@@ -1,0 +1,35 @@
+
+img{
+    width: 100px;
+
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+img{
+    width: 150px;
+height: 200px;}
+      
+body{
+    background-image: url('newfolders/youtube.jpg');
+    background-repeat:repeat-y;
+    background-size: 630px 430px;
+    background-position: top;
+    
+
+    
+}
+  h1{
+    font-size: 20pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;  
+    font-variant: small-caps;
+    color: blueviolet;
+    background:brown;
+
+}
+table ,tr, td ,th, caption{
+    border: 1px solid #eee ;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+}
