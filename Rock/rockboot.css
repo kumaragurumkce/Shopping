@@ -14,6 +14,7 @@ font-family: 'Yatra One', cursive;}
 }
  .navbar .navbar-brand{
     color: #45C4B0;
+    font-size: 35px;
     text-decoration: none;
  }   
 .navbar-light .navbar-toggler{
@@ -87,10 +88,10 @@ padding: 8px;
     font-size: 40px;
 }
 
-#product {
+#product{
    margin-bottom: 4px;
 }
-#product  .card:hover{
+#product .hover1:hover{
    transform: scale(1.05);
   box-shadow: 10px 10px 20px #012030;
   transition: 0.6s;
@@ -107,11 +108,10 @@ text-overflow:none;
    height: 320px;
    border: 2px;
    object-fit:cover;
- 
 width:20.8rem;
 }
 
-/* #img2{
+#img2{
    background:linear-gradient(to right,#CDCDCD 50%,#EFECE5 50%);
 }
 #img2 img{
@@ -125,7 +125,7 @@ box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59);
 #img2 img:hover{
 transform: scale(1.05);
 transition: 0.6s;
-}*/
+}
 #order{
    position: sticky;
    padding: 0.5rem 5rem;
@@ -179,7 +179,7 @@ font-size: 18px;
    background-color:#9AEBA3;
    border-radius: 5px;
 }
-.shopCollec .shopitem{
+ .shopitem{
    padding: 5px 10px;
    font-size: 20px;
    border: 1px solid rgb(231, 231, 231);
@@ -197,3 +197,33 @@ font-size: 18px;
    color: #012030;
    font-weight: bold;
 }
+/*
+ <div class="container-fluid p-0 gx-0 gy-10 mb-0" id="cards">
+        <div class="row"style="border-style:solid;border-bottom-width:20px;border-right-width:20px;border-top-width:20px;border-left-width:30px;border-color: #FBA563;">
+          <div class="col-md-6 col-lg-4 col-xl-3 p-1" >
+            <div class="card-body">
+            <div class="card" style="width:20rem; padding-right: 100px;">
+              <img  src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+            </div>
+            </div>
+          </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 p-1">
+              <div class="card" style="width:20rem; padding-right: 100px;">
+                <img   src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+              </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 p-1">
+                <div class="card" style="width:20rem; padding-right: 100px;">
+                  <img  src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+                </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 p-1">
+                  <div class="card" style="width:20rem; padding-right: 100px;">
+                    <img  src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+                  </div>
+                  </div>
+          </div>
+        </div>
+
+
+*/
