@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+*{margin: 0;
+padding: 0;
+left: 0;
+top: 0;
+right: 0;
+box-sizing: border-box;
+font-family: 'Yatra One', cursive;}
+#navs{
+    position: sticky;
+    padding: 0.5rem 5rem;
+    left: 0;
+    top:0;
+    z-index:100;
+    background: #012030;
+}
+ .navbar .navbar-brand{
+    color: #45C4B0;
+    font-size: 35px;
+    text-decoration: none;
+ }   
+.navbar-light .navbar-toggler{
+   
+   border: 5px solid #338074;
+}
+.navbar-light .navbar-toggler-icon{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,0,0,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+ .formcontrol input{
+  font-size: 13px;
+  width: 100%;
+  height: 30px;
+  margin: 5px ;
+    background-color:#45C4B0;
+ }   
+ .formcontrol input:hover{
+    background-color: #338074;
+ }
+ 
+ .formcontrol button{
+    width:30%;
+    height: 30px;
+    margin:5px 10px;
+    border-radius: 150px;
+    padding: 8px;
+    background-color: #45C4B0;
+ }
+ .formcontrol button:hover{
+    background-color: #338074;
+ }
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    color: #45C4B0;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+width: 100%;
+ height: 42px;
+ background-color: #45C4B0;
+ border-radius: 70px;
+box-sizing: border-box;
+color: #012030; 
+padding: 8px;
+}
+#collectionlisthid {
+  height:50px;
+   background:#9AEBA3;
+}
+#collectionlisthid .nav .nav-item .nav-link
+{
+   color: #13678A;
+   font-size: 20px;
+   border-bottom: 5px solid transparent;
+}
+#collectionlisthid .nav .nav-item .nav-link:hover
+{
+   color: #012030;
+   border-bottom: 3px solid gold;
+}
+.capt{
+   background: linear-gradient(to right, #DAFDBA, #13678A);   
+}
+.capt :hover{
+   transition: 0.9s;
+   transform: scale(1.1);
+}
+.capt .text-center{
+ color: #012030;
+    font-size: 40px;
+}
+
+body{
+    overflow-x: scroll;
+}
+#men-img{
+    background-image: url(https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ 
+}
+#men-f1 :hover{
+    background-color: #FBA563; 
+    color: #FBA563;
+    
+    transition: 0.9s;
+   transform: scale(1.04);
+ }
+ #men-f1{
+    background-color: #FBA563; 
+    color: #085368;
+
+ }
+
+ menu{
+   scroll-snap-type:y mandatory; height: 100vh;
+ }
+ section{
+   scroll-snap-align: start;
+ }
+ #main1 .text-center{
+   padding: 5px;   margin-top:100px;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+ #main1 .text-center:hover{
+   transition: 0.5s;
+   transition-timing-function:ease-out ;
+   transform: scale(1.01);
+    -webkit-box-shadow: 10px 10px 32px 5px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 32px 5px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 32px 5px rgba(0,0,0,0.75);
+}
+#product111 {
+border: 30px solid red;
+border-left:30px solid #A5A5A5;
+border-top:30px solid  #A5A5A5;
+border-right:30px solid #5E5641;
+border-bottom:30px solid #5E5641;
+}
+.inner{
+   overflow: hidden;
+}
+.inner .inner-item{
+   transition: all 0.9s ease;
+}
+.inner:hover .inner-item{
+   transform: scale(1.09);
+}
+
+#product111 img{
+   height: 420px;
+   border: 2px;
+   object-fit:cover;
+width:19.6rem;
+}

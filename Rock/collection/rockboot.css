@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Yatra One', cursive;}
+#navs{
+    position: sticky;
+    padding: 0.5rem 5rem;
+    left: 0;
+    top:0;
+    z-index:100;
+    background: #012030;
+}
+ .navbar .navbar-brand{
+    color: #45C4B0;
+    font-size: 35px;
+    text-decoration: none;
+ }   
+.navbar-light .navbar-toggler{
+   
+   border: 5px solid #338074;
+}
+.navbar-light .navbar-toggler-icon{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,0,0,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+ .formcontrol input{
+  font-size: 13px;
+  width: 100%;
+  height: 30px;
+  margin: 5px ;
+    background-color:#45C4B0;
+ }   
+ .formcontrol input:hover{
+    background-color: #338074;
+ }
+ 
+ .formcontrol button{
+    width:30%;
+    height: 30px;
+    margin:5px 10px;
+    border-radius: 150px;
+    padding: 8px;
+    background-color: #45C4B0;
+ }
+ .formcontrol button:hover{
+    background-color: #338074;
+ }
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    color: #45C4B0;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+width: 100%;
+ height: 42px;
+ background-color: #45C4B0;
+ border-radius: 70px;
+box-sizing: border-box;
+color: #012030; 
+padding: 8px;
+}
+#collectionlisthid {
+  height:60px;
+   background:#9AEBA3;
+}
+#collectionlisthid .nav .nav-item .nav-link
+{
+   color: #13678A;
+   font-size: 20px;
+   border-bottom: 5px solid transparent;
+}
+#collectionlisthid .nav .nav-item .nav-link:hover
+{
+   color: #012030;
+   border-bottom: 3px solid gold;
+}
+.capt{
+   background: linear-gradient(to right, #DAFDBA, #13678A);   
+
+}
+.capt :hover{
+   transition: 0.9s;
+   transform: scale(1.1);
+}
+.capt .text-center{
+ color: #012030;
+    font-size: 40px;
+}
+
+#product{
+   margin-bottom: 4px;
+}
+#product .hover1:hover{
+   transform: scale(1.05);
+  box-shadow: 10px 10px 20px #012030;
+  transition: 0.6s;
+  z-index: 2;
+}
+
+#product .card-title{
+font-size: 24px;
+text-align: center;
+margin: 5px;
+text-overflow:none;
+}
+#product img{
+   height: 320px;
+   border: 2px;
+   object-fit:cover;
+width:20.8rem;
+}
+
+#img2{
+   background:linear-gradient(to right,#CDCDCD 50%,#EFECE5 50%);
+}
+#img2 img{
+
+ height: 500px;
+ margin: 20px 150px;
+   -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59);
+box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59);
+}
+#img2 img:hover{
+transform: scale(1.05);
+transition: 0.6s;
+}
+#order{
+   position: sticky;
+   padding: 0.5rem 5rem;
+   left: 0;
+   top:0;
+   z-index:100;
+   background: #012030;
+}
+#order .navbar-brand{
+   font-size: 30px;
+}
+main .container-fluid{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20vh;
+}
+h1{
+   color: #012030;
+   background-color: #45C4B0;
+padding: 15px;
+border-radius: 30px;
+}
+.form-container #form-group{
+   max-width: 500px;
+   margin: 5px auto;
+   padding: 10px;
+   background-color:#9AEBA3;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+ }
+#inputid{
+   width: 350px;
+   background-color: #012030;
+   margin: 10px;
+   color: #EFECE5;
+   border: none;
+}
+#submit{
+   background-color: #13678A;
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+font-size: 18px;
+}
+ .shopCollec{
+   
+   margin: 5px auto;
+   padding: 10px;
+   background-color:#9AEBA3;
+   border-radius: 5px;
+}
+ .shopitem{
+   padding: 5px 10px;
+   font-size: 20px;
+   border: 1px solid rgb(231, 231, 231);
+   margin: 10px 0;
+   color: gray;
+   text-transform: capitalize;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.shopCollec .shopitem:hover {
+   background-color: #45C4B0;
+   cursor: pointer;
+   color: #012030;
+   font-weight: bold;
+}
+/*
+ <div class="container-fluid p-0 gx-0 gy-10 mb-0" id="cards">
+        <div class="row"style="border-style:solid;border-bottom-width:20px;border-right-width:20px;border-top-width:20px;border-left-width:30px;border-color: #FBA563;">
+          <div class="col-md-6 col-lg-4 col-xl-3 p-1" >
+            <div class="card-body">
+            <div class="card" style="width:20rem; padding-right: 100px;">
+              <img  src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+            </div>
+            </div>
+          </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 p-1">
+              <div class="card" style="width:20rem; padding-right: 100px;">
+                <img   src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+              </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 p-1">
+                <div class="card" style="width:20rem; padding-right: 100px;">
+                  <img  src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+                </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 p-1">
+                  <div class="card" style="width:20rem; padding-right: 100px;">
+                    <img  src="https://cdn.shopify.com/s/files/1/0047/7727/9617/products/FCP07153copy_400x.jpg?v=1631859061" class="card-img img-fluid">
+                  </div>
+                  </div>
+          </div>
+        </div>
+
+
+*/
